@@ -1,0 +1,91 @@
+body{
+    background-color: #bdb5b5;
+}
+
+header{
+    width: 80%;
+    background-color:#555 ;
+    color: #ddd;
+    padding: 20px;
+    margin: 20px 100px;
+    top: 0;
+    text-align: center;
+    border-radius: 15px;
+    top: 0%;
+}
+header h1{
+    background-color: #555;
+}
+nav{
+    width: 80%;
+    background-color:#555 ;
+    color: blue;
+    padding: 20px;
+    margin: 20px 100px;
+    top: 0;
+    text-align: center;
+    border-radius: 15px;
+    
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    display: inline-flex;
+    justify-content: center;
+   
+}
+
+nav a{
+    margin: 0 10px; 
+    text-decoration: none;
+    font-size: 3.0vh;
+    color: white;
+   
+}
+:is(nav) :is(ul, li, a){
+    background-color: #555;
+}
+main {
+    width: 80%;
+    background-color: white ;
+    padding: 20px;
+    margin: 20px 100px;
+    top: 0;
+    text-align: center;
+    border-radius: 15px;
+}
+h2{
+    background-color: white;
+}
+.table{
+    width: 100%;
+    background-color: white;
+}
+.trImagens{
+    width: 30%;
+    background-color: white;    
+}
+.trImagens > td > img{
+    object-fit: fill;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    
+}
+.trImagens > td{
+    padding: 20px;
+    background-color: white;
+}
+footer{
+    text-align: center;
+    background-color: #555;
+    padding: 40px;
+    border-radius: 15px;
+    width: 80%;
+    padding: 20px;
+    margin: 20px 100px;
+}
+:is(footer) :is(address, a){
+    background-color: #555;
+}

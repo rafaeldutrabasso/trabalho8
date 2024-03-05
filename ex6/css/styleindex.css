@@ -1,0 +1,98 @@
+body{
+    background-color: #bdb5b5;
+}
+
+header{
+    width: 80%;
+    background-color:#555 ;
+    color: #ddd;
+    padding: 20px;
+    margin: 20px 100px;
+    top: 0;
+    text-align: center;
+    border-radius: 15px;
+    top: 0%;
+}
+header h1{
+    background-color: #555;
+}
+
+nav ul{
+    display: flex; 
+    list-style: none; 
+    padding: 0; 
+}
+nav {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+
+}
+nav button{
+   border: none;
+   outline: none;
+   padding: 0 10px;
+   background-color: inherit;
+   height: 30px;
+   margin: 0;
+   
+}
+
+
+main {
+    width: 80%;
+    background-color: white ;
+    padding: 20px;
+    margin: 20px 100px;
+    top: 0;
+    border-radius: 15px;
+}
+h2{
+    background-color: white;
+}
+.table{
+    width: 100%;
+    background-color: white;
+}
+.trImagens{
+    width: 30%;
+    background-color: white;    
+}
+.trImagens > td > img{
+    object-fit: fill;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    
+}
+.trImagens > td{
+    padding: 20px;
+    background-color: white;
+}
+footer{
+    text-align: center;
+    background-color: #555;
+    padding: 40px;
+    border-radius: 15px;
+    width: 80%;
+    padding: 20px;
+    margin: 20px 100px;
+}
+:is(footer) :is(address, a){
+    background-color: #555;
+}
+nav button:hover{
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+button.buttonActive {
+    font-weight: bold;
+    color: blue;
+}
+.tabs section{
+    display: none;
+}
+section.tabActive {
+    display: block;
+}
